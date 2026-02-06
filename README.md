@@ -62,3 +62,9 @@ Configurable in the code:
 - JPG
 - JPEG
 - PNG
+
+## Output example
+
+The output image will be a composite of the original image, white/gray mask, contours, and blurred background, displayed side by side.
+
+![Example Output](output/cats/cat.1.png)
