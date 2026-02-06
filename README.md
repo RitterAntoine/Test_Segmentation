@@ -18,15 +18,9 @@ This project uses the **DeepLabV3** model to segment objects in images. It proce
 ```
 .
 ├── test_model.py          # Main script
-├── main.py                      # Alternative version
 ├── image_segmentation.ipynb     # Jupyter notebook
 ├── deeplabv3.tflite             # Segmentation model
-├── dataset/                     # Input folder (categories)
-│   ├── cats/
-│   ├── dogs/
-│   ├── flowers/
-│   ├── horses/
-│   └── human/
+├── dataset/                     # Input folder
 └── output/                      # Output folder (results)
 ```
 
