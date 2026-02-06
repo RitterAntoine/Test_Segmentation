@@ -4,7 +4,7 @@ Image segmentation with DeepLabV3 and MediaPipe.
 
 ## Description
 
-This project uses the **DeepLabV3** model to segment objects in images. DeepLabV3 is a state-of-the-art semantic segmentation architecture developed by Google that employs atrous (dilated) convolutions and the Atrous Spatial Pyramid Pooling (ASPP) module to capture multi-scale context. It enables precise pixel-level classification for detecting and segmenting objects at multiple scales, without requiring post-processing like CRFs (Conditional Random Fields).
+This project uses the **DeepLabV3** model to segment objects in images. DeepLabV3 is a CNN-based architecture. The model is trained on the PASCAL VOC dataset, which includes 21 classes (20 object classes + background). It classifies each pixel into one of these classes, allowing for precise segmentation of objects in images.
 
 The project processes images from a `dataset` folder organized by categories and generates composite results in the `output` folder.
 
